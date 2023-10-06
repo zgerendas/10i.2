@@ -67,5 +67,14 @@ print(y)
 #x,y,z = 1,2,3,4
 x,y,z = 1,2,3
 
+# x + y = 12
 
+print('+'*20)
+ezMi = 1 == 1
+print(type(ezMi),ezMi)
+ezMi = 1 == 2
+print(type(ezMi),ezMi)
+ezMi = 1 < 2
+print(type(ezMi),ezMi)
 
+# == ; < ; > ; <= ; >= 
