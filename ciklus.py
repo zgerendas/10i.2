@@ -90,10 +90,40 @@ db = 1
 for i,j in lista:
     print(db,i,j,sep=", ")
     db  += 1
-'''
+
 #for i,j in [[1,2,10],[3,4],[5,6]]:
 #    print(i,j)
 
+
+ismet = True
+while ismet :
+    # print("Valami")
+    egesz = int(input("Kérek egy 1 és 10 közé eső számit: "))
+    if egesz >=1 and egesz <= 10:
+        ismet = False
+    else:
+        print("Hibás a szám: ",egesz)
+
+print(egesz)
+
+i = 0
+while i < 10:
+    print(i)
+    i += 1
+
+print("ciklus vege ",i)
+
+'''
+i = 0
+while i < 10:
+    i += 1
+    print(i,end=" - ")
+    if i == 5:
+        continue
+    print(i*i) 
+    if i == 7:
+        break
+print("ciklus vege ",i)
 
 
 
