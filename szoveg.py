@@ -30,7 +30,7 @@ print(mondat.index('E'))
 print(mondat.index('hogy'))
 print(mondat.index('x'))
 """
-
+'''
 db = 0
 
 magan=set()
@@ -44,3 +44,62 @@ for c in mondat.lower()  :
 print(db,"Magánhangzó volt")
 print(len(magan),"darab különböző magánhangzóm volt")
 
+mondat="Vettem egy kiló almát, almaszószt készítek belőle."
+
+print(mondat)
+print(mondat.replace("alma","körte"))
+print(mondat)
+mondat2 = mondat.replace("e","a")
+print(mondat2)
+
+mondat2 = mondat.replace("e","a",2)
+print(mondat2)
+
+#mondat2 = mondat.replace("e","a",2,3)
+#print(mondat2)
+print(mondat.split(" "))
+print(mondat.split(","))
+print(mondat.split("al"))
+
+print(mondat.count("al"))
+
+mondat="á"
+print(mondat.encode("latin2"))
+print('-'*10)
+print(mondat.encode("utf-8"))
+print('*'*10)
+print(mondat.encode("utf-16"))
+print('*'*10)
+print(mondat.encode("utf-32"))
+'''
+#mondat.format("","")
+print(mondat.isdecimal())
+print("12".isnumeric())
+
+#szam = int(input("Kérek egy egész szamot!: "))
+'''
+ismeteld = True
+while ismeteld:
+    szam = input("Kérek egy egész szamot!: ")
+    if szam.isdecimal():
+        egesz=int(szam)
+        ismeteld = False
+print(egesz)
+'''
+
+print("Alma12ekes".isalnum())
+print("Alma12ékes".isalnum())
+print("Alma12,ékes".isalnum())
+print(mondat)
+print('----------')
+print(mondat.join("egy"))
+print('----------')
+print(mondat)
+
+lista = ["alma","barack","szilva"]
+print(" vettem ".join(lista))
+print(",".join(lista))
+x = ",".join(lista)
+print(x.split(","))
+
+mondat.
