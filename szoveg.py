@@ -101,5 +101,3 @@ print(" vettem ".join(lista))
 print(",".join(lista))
 x = ",".join(lista)
 print(x.split(","))
-
-mondat.
