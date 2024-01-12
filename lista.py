@@ -120,7 +120,7 @@ print(szamok)
 
 szamok = list()
 while len(szamok) < 5:
-    v = random.randint(1,90)
+    v = random.randint(1,90 )
     if szamok.count(v) == 0 :
         szamok.append(v)
 print(szamok)
