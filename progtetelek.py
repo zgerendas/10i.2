@@ -68,7 +68,7 @@ print(vane2(lista2))
 print(vane2([1,2,3,4,5,49]))
 print("+"*10)
 # kiválasztás
-def kivalaszt(l):
+def kivalasztHibas(l):
     van = False
     elem = None
     i = 0
@@ -79,7 +79,27 @@ def kivalaszt(l):
             elem = l[i]
         i +=1
     return elem
-print(kivalaszt(lista))
+print(kivalasztHibas(lista),"-----")
+
+def kivalaszt(l):
+    van = False
+    
+    i = 0
+    while not van and i < len(l):
+        #print(l[i])
+        if l[i] > 50:
+            van = True
+            
+        i +=1
+    return i
+print(lista, kivalaszt(lista),"++++++")
+
+def kivalaszt2(l):
+    i =0 
+    while not l[i] > 70:
+        i +=1
+    return i
+print("Kivalaszt2:", kivalaszt2(lista))
 
 # minimum
 def minimum(l):
