@@ -65,3 +65,9 @@ while valid.find(be) < 0:
     be = input("Kérek egy angol ABC betűt (rövid): ")
 
 print(be)
+print("+"*10)
+be ="."
+while not be in valid:
+    be = input("Kérek egy angol ABC betűt (rövid): ")
+
+print(be)
