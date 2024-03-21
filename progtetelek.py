@@ -4,7 +4,7 @@ lista =[2,3,66,23,7,12,77]
 
 # összegzés
 osszeg = 0
-for szam in lista:
+for szam in lista: 
     #osszeg = osszeg + szam
     osszeg += szam
 print(osszeg)

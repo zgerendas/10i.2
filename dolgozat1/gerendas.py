@@ -39,7 +39,7 @@ def harommal_oszthatok(lista):
 #print(harommal_oszthatok(l))
 # 2.b
 
-szamok = list()
+szamok = list() #
 for _ in range(20):
     #print(_,random.randint(1,100))
     szamok.append(random.randint(1,100))
